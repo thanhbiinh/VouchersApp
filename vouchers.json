@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "san": "Shopee",
+    "ten": "Giảm 20K",
+    "ma": "GIAM20K",
+    "giam": "20.000đ",
+    "dieuKien": "Đơn từ 100.000đ",
+    "hanSuDung": "30/09/2026",
+    "link": "https://shopee.vn"
+
+  },
+  {
+    "id": 2,
+    "san": "Shopee",
+    "ten": "Giảm 50K",
+    "ma": "GIAM50K",
+    "giam": "50.000đ",
+    "dieuKien": "Đơn từ 300.000đ",
+    "hanSuDung": "30/09/2026",
+    "link": "https://shopee.vn"
+  },
+  {
+    "id": 3,
+    "san": "Lazada",
+    "ten": "Giảm 50K",
+    "ma": "LAZADA50",
+    "giam": "50.000đ",
+    "dieuKien": "Đơn từ 300.000đ",
+    "hanSuDung": "01/10/2026",
+    "link": "https://lazada.vn"
+  },
+  {
+    "id": 4,
+    "san": "TikTok Shop",
+    "ten": "Giảm 30K",
+    "ma": "TIKTOK30",
+    "giam": "30.000đ",
+    "dieuKien": "Đơn từ 150.000đ",
+    "hanSuDung": "05/10/2026",
+    "link": "https://shopee.vn"
+  }
+]
