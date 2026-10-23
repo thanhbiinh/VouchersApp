@@ -6,10 +6,10 @@ import kotlinx.serialization.Serializable
 data class Voucher(
     val id: Int,
     val san: String,
-    val ten: String,
     val ma: String,
     val giam: String,
     val dieuKien: String,
     val hanSuDung: String,
-    val link: String
+    val link: String,
+    val luuY: String
 )

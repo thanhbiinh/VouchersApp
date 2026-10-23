@@ -22,7 +22,7 @@ data class Vouchers(
 suspend fun loadVouchers(): List<Voucher> = withContext(Dispatchers.IO) {
 
     val url =
-        "https://raw.githubusercontent.com/thanhbiinh/VouchersApp/main/vouchers.json"
+        "https://raw.githubusercontent.com/thanhbiinh/VouchersApp/refs/heads/main/vouchers.json"
 
     val client = OkHttpClient()
 
