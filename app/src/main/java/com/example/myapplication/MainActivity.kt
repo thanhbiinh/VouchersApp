@@ -107,7 +107,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-// ───────────────────────── Logo (icon launcher của app) ─────────────────────────
 @Composable
 fun DongHoTreoTuong(kichThuoc: Dp = 220.dp) {
     val now by produceState(initialValue = System.currentTimeMillis()) {
@@ -170,6 +169,8 @@ fun DongHoTreoTuong(kichThuoc: Dp = 220.dp) {
         drawCircle(Color.White, radius = 2.5.dp.toPx(), center = tam)
     }
 }
+
+// Logo
 @Composable
 fun LogoApp(size: Dp, modifier: Modifier = Modifier) {
     val context = LocalContext.current
@@ -188,7 +189,7 @@ fun LogoApp(size: Dp, modifier: Modifier = Modifier) {
     )
 }
 
-// ───────────────────────── Splash ─────────────────────────
+// Splash Screen
 
 @Composable
 fun AppRoot() {
@@ -235,7 +236,7 @@ fun SplashScreen() {
     }
 }
 
-// ───────────────────────── Màn hình chính + taskbar ─────────────────────────
+//  Màn hình chính + taskbar
 
 @Composable
 fun MainScreen() {
@@ -380,7 +381,7 @@ fun MainScreen() {
     }
 }
 
-// ───────────────────────── Trang chủ ─────────────────────────
+// Trang chủ
 
 @Composable
 fun TrangChu() {
@@ -431,7 +432,7 @@ fun DongHo(mau: Color = CamChinh) {
     )
 }
 
-// ───────────────────────── Cài đặt ─────────────────────────
+// Cài đặt
 
 @Composable
 fun ManCaiDat() {
@@ -470,7 +471,7 @@ fun ManCaiDat() {
     }
 }
 
-// ───────────────────────── Danh sách voucher ─────────────────────────
+// Danh sách voucher
 
 @Composable
 fun VoucherApp(
@@ -486,7 +487,7 @@ fun VoucherApp(
 
     val listState = rememberLazyListState()
 
-    // 0 = hiện đủ, -chieuCao = thu hẳn
+
     val chieuCaoDauTrang = remember { FloatArray(1) }
     var offsetDauTrang by remember { mutableFloatStateOf(0f) }
 
